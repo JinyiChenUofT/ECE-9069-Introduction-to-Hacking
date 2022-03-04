@@ -5,7 +5,7 @@ SonarQube is an automatic code review tool to detect bugs, vulnerabilities, and 
 
 
 ### How does SonarQube work
------------------------
+
 SonarQube evaluates your code against a set of rules for 27 programming languages in 4 aspects: bug, vulerability, code smell, and secutiry hotspot.
 
 For example, "=+" should not be used instead of "+=" in Java. You can check rules in the 
@@ -13,7 +13,7 @@ For example, "=+" should not be used instead of "+=" in Java. You can check rule
 ![rule example](./images/SonarQubeRule1.png "rule example")
 
 ### Who uses SonarQube
-------------------
+
 SonarQube is used and loved by 300,000+ organizations.
 * Barclays
 * IBM
@@ -22,22 +22,22 @@ SonarQube is used and loved by 300,000+ organizations.
 * ...
   
 ### Why is SonarQube useful
------------------------
+
 * Catch tricky bugs to prevent undefined behaviour from impacting end-users.
 * Fix vulnerabilities that compromise your app, and learn AppSec along the way with Security Hotspots.
 * Make sure your codebase is clean and maintainable, to increase developer velocity!
 
 ### What is the real-world impact
----------------------------------
+
 SonarQube empowers all developers to write cleaner and safer code.
 
-## Installation
+Installation
 ------------
 
-## Demo
+Demo
 -------
 
-## IDE Extension - SonarLint
+IDE Extension - SonarLint
 ----------------------------
 SonarLint is a Free and Open Source IDE extension that identifies and helps you fix quality and security issues as you code. Like a spell checker, SonarLint squiggles flaws and provides real-time feedback and clear remediation guidance to deliver clean code from the get-go.
 
@@ -45,7 +45,7 @@ SonarLint is a Free and Open Source IDE extension that identifies and helps you 
 
 ![sonarlint-vscode](./images/sonarlint-vscode.gif "sonarlint-vscode")
 
-## Links
+Links
 -----
 
 * [Offcial Website](https://www.sonarqube.org)

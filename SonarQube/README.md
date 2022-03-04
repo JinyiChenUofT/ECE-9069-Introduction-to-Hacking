@@ -55,6 +55,11 @@ Links
 * [SonarCloud](www.sonarcloud.io) The online Code Quality and Security service powered by SonarSource, which offers a free 2-week trial directly online. 
 
 
+Citations
+---------
+* https://www.sonarqube.org
+* https://www.sonarlint.org
+* https://github.com/SonarSource/sonarlint-vscode
 
 <!-- Choose Languages 
 ---------------

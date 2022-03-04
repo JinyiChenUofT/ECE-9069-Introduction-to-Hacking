@@ -82,7 +82,7 @@ MacOS Platform
 
 Start the SonarQube with ./sonar.sh start
 
-![SonarScanner Home Page](./images/Screen Shot 2022-03-04 at 4.03.56 PM.png)
+![SonarScanner Home Page](./images/start.png)
 
 In http://localhost:9000/, create a project manually.
 
@@ -94,7 +94,11 @@ Select the option and the OS for your project. Then you will have a command you 
 
 Download the sonar-scanner by using the "brew install" command line, and check the version.
 
-![SonarScanner Create Project Page](./images/Screen Shot 2022-03-04 at 4.03.26 PM.png)
+![SonarScanner Create Project Page](./images/installScanner.png)
+
+The scan result will be displayed in the user interface.
+
+![SonarScanner Project Page](./images/homepage.png)
 
 
 

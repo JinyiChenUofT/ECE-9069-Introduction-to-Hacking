@@ -1,14 +1,29 @@
 SonarQube
 =========
 
-SonarQube is an automatic code review tool to detect bugs, vulnerabilities, and [code smells](https://en.wikipedia.org/wiki/Code_smell) in your code. It can integrate with your existing workflow to enable continuous code inspection across your project branches and pull requests.
+SonarQube is an automatic code review tool to detect bugs, [code smells](https://en.wikipedia.org/wiki/Code_smell), vulnerabilities, and [security hotspot](https://docs.sonarqube.org/latest/user-guide/security-hotspots/) in your code. It can integrate with your existing workflow to enable continuous code inspection across your project branches and pull requests.
+
+![overview](./images/overview.png)
+
+Developers could use SonarLint in their IDE to receive immeidiate feedback in the editer. 
+When they check-in their code to CI tools, SonarQube scanner will analyze the code and return a result.
 
 
 ### How does SonarQube work
 
 SonarQube evaluates your code against a set of rules for 27 programming languages in 4 aspects: bug, vulerability, code smell, and secutiry hotspot.
 
-For example, "=+" should not be used instead of "+=" in Java. You can check rules in the 
+Quality Profiles are collections of rules to apply during an analysis. For each language there is a default profile. Users could create custom quality profile as well.
+
+![Quality Profile](./images/QualityProfile.png)
+
+The rules are intoduced in the user interface. 
+
+Take a C# vulnerability as an example, "A secure password should be used when connecting to a database".
+
+![rule example](./images/SonarQubeRule2.png "rule example")
+
+Take a Java bug as an example, "=+" should not be used instead of "+=".
 
 ![rule example](./images/SonarQubeRule1.png "rule example")
 
@@ -31,8 +46,8 @@ SonarQube is used and loved by 300,000+ organizations.
 
 SonarQube empowers all developers to write cleaner and safer code.
 
-Installation
-------------
+Installation and Setup
+----------------------
 
 Go to [SonarQube Downloads](https://www.sonarqube.org/downloads/) and downloads the free Community version
 
@@ -46,7 +61,8 @@ In order to scan your project, go to [SonarScanner Downloads](https://docs.sonar
 
 ![SonarScanner Download Page](./images/SonarQubeInstall2.png)
 
-Windows
+### Windows
+
 
 Open System Properties - Environment Varaibles - Path, add the location of SonarScanner's bin folder to the path.
 For Example: C:\sonar-scanner-cli-4.6.2.2472-windows\sonar-scanner-4.6.2.2472-windows\bin
@@ -78,7 +94,7 @@ Excute the command in your project folder and then the scan result will be displ
 ![SonarScanner Project Page](./images/SonarQubeInstall8.png)
 
 
-MacOS Platform
+#### Mac
 
 Start the SonarQube with ./sonar.sh start
 
@@ -104,8 +120,9 @@ The scan result will be displayed in the user interface.
 
 Demo
 -------
-Macos Demo: https://youtu.be/Rr1uH2Nvths
-Windows Demo: https://www.youtube.com/watch?v=S4IZRTox1Cw
+[Macos Demo](https://youtu.be/Rr1uH2Nvths)
+
+[Windows Demo](https://www.youtube.com/watch?v=S4IZRTox1Cw)
 
 IDE Extension - SonarLint
 ----------------------------
@@ -121,6 +138,7 @@ Links
 * [Offcial Website](https://www.sonarqube.org)
 * [Download](https://www.sonarqube.org/downloads/)
 * [Documentation](https://docs.sonarqube.org)
+* [Community](https://www.sonarqube.org/community/)
 * [SonarLint Official Website](https://www.sonarlint.org/)
 * [SonarCloud](www.sonarcloud.io) The online Code Quality and Security service powered by SonarSource, which offers a free 2-week trial directly online. 
 

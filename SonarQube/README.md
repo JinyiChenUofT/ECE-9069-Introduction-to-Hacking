@@ -53,7 +53,7 @@ Installation and Setup
 
 Demo
 -------
-[Macos Demo](https://youtu.be/Rr1uH2Nvths)
+[Mac Demo](https://youtu.be/Rr1uH2Nvths)
 
 [Windows Demo](https://www.youtube.com/watch?v=S4IZRTox1Cw)
 

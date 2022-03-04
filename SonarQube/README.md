@@ -98,7 +98,7 @@ Download the sonar-scanner by using the "brew install" command line, and check t
 
 The scan result will be displayed in the user interface.
 
-![SonarScanner Project Page](./images/homepage.png)
+![SonarScanner Project Page](./images/homepage.jpg)
 
 
 

@@ -80,9 +80,9 @@ Excute the command in your project folder and then the scan result will be displ
 
 
 Demo
+-------
 Macos Demo: https://youtu.be/Rr1uH2Nvths
 Windows Demo: https://www.youtube.com/watch?v=S4IZRTox1Cw
--------
 
 IDE Extension - SonarLint
 ----------------------------

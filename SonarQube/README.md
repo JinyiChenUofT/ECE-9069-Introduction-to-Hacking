@@ -73,10 +73,29 @@ Select the option and the OS for your project. Then you will have a command you 
 
 ![SonarScanner Create Project Page](./images/SonarQubeInstall7.png)
 
-
 Excute the command in your project folder and then the scan result will be displayed in the user interface.
 
 ![SonarScanner Project Page](./images/SonarQubeInstall8.png)
+
+
+MacOS Platform
+
+Start the SonarQube with ./sonar.sh start
+
+![SonarScanner Home Page](./images/Screen Shot 2022-03-04 at 4.03.56 PM.png)
+
+In http://localhost:9000/, create a project manually.
+
+![SonarScanner Home Page](./images/SonarQubeInstall3.png)
+
+Select the option and the OS for your project. Then you will have a command you could copy to execute the scanner.
+
+![SonarScanner Create Project Page](./images/1646427955(1).png)
+
+Download the sonar-scanner by using the "brew install" command line, and check the version.
+
+![SonarScanner Create Project Page](./images/Screen Shot 2022-03-04 at 4.03.26 PM.png)
+
 
 
 Demo

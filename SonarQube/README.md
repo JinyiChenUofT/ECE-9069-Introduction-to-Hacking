@@ -31,19 +31,30 @@ SonarQube is used and loved by 300,000+ organizations.
 ---------------------------------
 SonarQube empowers all developers to write cleaner and safer code.
 
-Installation
+## Installation
 ------------
 
+## Demo
+-------
 
-Links
+## IDE Extension - SonarLint
+----------------------------
+SonarLint is a Free and Open Source IDE extension that identifies and helps you fix quality and security issues as you code. Like a spell checker, SonarLint squiggles flaws and provides real-time feedback and clear remediation guidance to deliver clean code from the get-go.
+
+[SonarLint for Visual Studio Code Repo](https://github.com/SonarSource/sonarlint-vscode)
+
+![sonarlint-vscode](./images/sonarlint-vscode.gif "sonarlint-vscode")
+
+## Links
 -----
 
 * [Offcial Website](https://www.sonarqube.org)
 * [Download](https://www.sonarqube.org/downloads/)
 * [Documentation](https://docs.sonarqube.org)
+* [SonarLint Official Website](https://www.sonarlint.org/)
 * [SonarCloud](www.sonarcloud.io) The online Code Quality and Security service powered by SonarSource, which offers a free 2-week trial directly online. 
-* [SonarLint]
-* [Demo]
+
+
 
 <!-- Choose Languages 
 ---------------

@@ -5,6 +5,9 @@ Go to [SonarQube Downloads](https://www.sonarqube.org/downloads/) and downloads 
 
 ![SonarQube Download Page](./images/SonarQubeInstall1.png)
 
+
+### Windows
+
 Select your operating system folder under /bin folder, and execute "StartSonar"
 
 Open a new broswer and go to http://localhost:9000/, type user "admin", password "admin" to login in for the first time and update your password for later usage. Then you have seen the user interface of SonarQube.
@@ -12,9 +15,6 @@ Open a new broswer and go to http://localhost:9000/, type user "admin", password
 In order to scan your project, go to [SonarScanner Downloads](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/) and downloads sonar-scanner.
 
 ![SonarScanner Download Page](./images/SonarQubeInstall2.png)
-
-### Windows
-
 
 Open System Properties - Environment Varaibles - Path, add the location of SonarScanner's bin folder to the path.
 For Example: C:\sonar-scanner-cli-4.6.2.2472-windows\sonar-scanner-4.6.2.2472-windows\bin

@@ -67,3 +67,9 @@ Download the sonar-scanner by using the "brew install" command line, and check t
 The scan result will be displayed in the user interface.
 
 ![SonarScanner Project Page](./images/homepage.jpg)
+
+This is the Error the SonarQube has been detected, I try to fix it.
+
+![SonarScanner Project Page](./images/Error.png)
+
+![SonarScanner Project Page](./images/Error1.png)
